@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System.IO;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace CSV_Cleaner
 {
@@ -43,7 +39,6 @@ namespace CSV_Cleaner
                     fs.Write(memberInfo, 0, memberInfo.Length);
                 }
             }
-            Console.ReadLine();
         }
     }
 }
